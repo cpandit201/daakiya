@@ -12,7 +12,7 @@ var module_firebaseConfig = {
 var module_HERETrackingAccount = {
   trackingEmail : "cpandit203@gmail.com",
   trackingPassword : "Q2hpcmFnITEyMw==", //btoa("passwordString")
-  trackingAppId : "RoARPsgpf2jnpAT6n7zY"//Goto App Tracking and Create first device - navigate to Here Developer Plans and get your app ID
+  trackingAppId : "RoARPsgpf2jnpAT6n7zY"//developer.here.com -> Tracking Project -> AppID -> Goto App Tracking and Create first device - navigate to Here Developer Plans and get your app ID
 };
 
 var module_HEREDeveloperAccess = {
@@ -22,7 +22,7 @@ var module_HEREDeveloperAccess = {
 };
 
 var module_XYZ = {
-  vehiclesDataSpaceId : "7nVQzZ0c",//"cpandit202@gmail.com",
-  xyzToken : "AJZNL8IDaCkcqDfrqZKCh74",
+  vehiclesDataSpaceId : "7nVQzZ0c",// Create a space - https://xyz.api.here.com/hub/static/swagger/#/Edit%20Spaces/postSpace
+  xyzToken : "AJZNL8IDaCkcqDfrqZKCh74",// Create a token from token manager - https://xyz.api.here.com/token-ui/tokenmatrixui.html
   xyzUserName : "cpandit202@gmail.com"
 };
